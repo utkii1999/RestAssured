@@ -1,10 +1,11 @@
+package publicAPI;
 import static io.restassured.RestAssured.*;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
 import io.restassured.http.ContentType;
-public class Tests_PUT {
+public class Tests_PATCH {
 	
 	@Test
 	public void test_put()
@@ -22,7 +23,7 @@ public class Tests_PUT {
 		accept(ContentType.JSON).
 		body(request.toJSONString()).
 		when().
-		put("https://reqres.in/api/users/2").
+		patch("https://reqres.in/api/users/2").
 		then().
 		statusCode(200).log().all();
 		
@@ -31,3 +32,4 @@ public class Tests_PUT {
 	}
 
 }
+
