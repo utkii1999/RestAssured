@@ -2,16 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-03-24T17:05:29 IST" name="Default suite" finished-at="2022-03-24T17:05:31 IST" duration-ms="1546">
+  <suite started-at="2022-03-25T10:40:17 IST" name="Suite" finished-at="2022-03-25T10:40:19 IST" duration-ms="1616">
     <groups>
     </groups>
-    <test started-at="2022-03-24T17:05:29 IST" name="Default test" finished-at="2022-03-24T17:05:31 IST" duration-ms="1546">
-      <class name="ownAPI.OwnAPI">
-        <test-method signature="test_delete()[pri:0, instance:ownAPI.OwnAPI@2fd1433e]" started-at="2022-03-24T17:05:30 IST" name="test_delete" finished-at="2022-03-24T17:05:31 IST" duration-ms="1515" status="PASS">
+    <test started-at="2022-03-25T10:40:17 IST" name="Test" finished-at="2022-03-25T10:40:19 IST" duration-ms="1616">
+      <class name="DataDrivenTesting.DataDrivenExamples1">
+        <test-method signature="test_delete2(int)[pri:0, instance:DataDrivenTesting.DataDrivenExamples1@759d26fb]" started-at="2022-03-25T10:40:17 IST" name="test_delete2" finished-at="2022-03-25T10:40:19 IST" duration-ms="1571" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[3]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test_delete -->
-      </class> <!-- ownAPI.OwnAPI -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test_delete2 -->
+      </class> <!-- DataDrivenTesting.DataDrivenExamples1 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
